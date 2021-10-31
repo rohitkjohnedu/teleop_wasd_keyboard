@@ -29,6 +29,7 @@ rosrun teleop_wasd_keyboard keyboard_listener.py
   * d: Decrease y velocity
   * q: Increase z angular velocity
   * e: Decrease z angular velocity
+  * space: Brake. Decelerate all speeds to 0.0
 * This node can listen to more than one key stroke. 
   * For example is you press w, e, and d, the node will issue commands to increase the x and y component of the velocity as well as reduce the angular velocity along z
 ## License
