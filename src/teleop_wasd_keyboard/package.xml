@@ -3,30 +3,23 @@
   <name>teleop_wasd_keyboard</name>
   <version>0.1.0</version>
   <description>The teleop_wasd_keyboard package</description>
+
+
   <maintainer email="rohitkjohnprojects@gmail.com">Rohit K. John</maintainer>
   <license>TODO</license>
   <url type="website">https://github.com/rohitkjohnprojects/teleop_wasd_keyboard</url>
-
   <author email="rohitkjohnprojects@gmail.com">Rohit K. John</author>
 
-  <build_export_depend>message_generation</build_export_depend>
-  <exec_depend>message_runtime</exec_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
-  <build_depend>std_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_export_depend>rospy</build_export_depend>
-  <build_export_depend>std_msgs</build_export_depend>
   <build_export_depend>geometry_msgs</build_export_depend>
   <exec_depend>rospy</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
 
 
-  <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- Other tools can request additional information be placed here -->
-
   </export>
 </package>

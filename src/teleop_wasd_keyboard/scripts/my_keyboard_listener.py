@@ -147,8 +147,8 @@ if __name__ == '__main__':
     # listener.join()   # add if main thread is polling self.keys
     
     # Initialising the rosnode
-    rospy.init_node("my_teleop")
-    pub  = rospy.Publisher("/my_cmd_topic", Twist, queue_size = 1)
+    rospy.init_node("wasd_teleop")
+    pub  = rospy.Publisher("/wasd_cmd_topic", Twist, queue_size = 1)
     rate = rospy.Rate(1/dt) 
 
     # initialising the message
