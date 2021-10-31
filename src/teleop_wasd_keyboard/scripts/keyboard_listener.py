@@ -13,9 +13,9 @@ valid_inputs = {
 
     # wasd controls linear motion
     'w':{"change":[ 1, 0, 0], "state":None},
-    'a':{"change":[ 0,-1, 0], "state":None},
+    'a':{"change":[ 0, 1, 0], "state":None},
     's':{"change":[-1, 0, 0], "state":None},
-    'd':{"change":[ 0, 1, 0], "state":None},
+    'd':{"change":[ 0,-1, 0], "state":None},
 
     # qe controls the angular motion
     'q':{"change":[ 0, 0, 1], "state":None},
