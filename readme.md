@@ -1,4 +1,4 @@
-# Teleop_WASD_keyboard
+# Teleop WASD keyboard
 This is a ROS package which contains a node which listens to keyboard input and publishes a topic which can be used to operate a service robot moving on a plane. This was inspired by teleop_twist_keyboard [1]
 
 ## Aim
